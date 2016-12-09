@@ -15,9 +15,17 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: DemiLight;
+    src: url("https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.otf"); 
+}
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+
+$helvetica: 'Noto Sans Japanese'; //Helvetica, Arial, sans-serif;
+$helveticaNeue: 'Noto Sans Japanese'; //"Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: 'Noto Sans Japanese'; //Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
