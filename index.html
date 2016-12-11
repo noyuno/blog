@@ -7,7 +7,12 @@ layout: default
     <article class="post">
 
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <p class="date">{{ post.date | date: "%Y.%m.%d" }}</p>
+      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
+      <ul class="tag-cloud">
+          {% for i in post.tags %} 
+              <li><a href="/blog/tags#{{ post.tags }}">{{ post.tags }}</a></li>
+          {% endfor %}
+      </ul>
       <div class="entry">
         {{ post.excerpt }}
       </div>
