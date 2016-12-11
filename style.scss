@@ -31,7 +31,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  display: inline;
   font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
@@ -108,7 +107,7 @@ strong, b {
 }
 
 img {
-    margin: 13px;
+    margin: 10px;
   max-width: 100%;
 }
 

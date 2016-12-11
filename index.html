@@ -10,13 +10,8 @@ layout: default
       <img align="left" width="200px" src="{{ post.image }}"></img>
       {% endif %}
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <ul class="tag-cloud">
-          {% for i in post.tags %} 
-              <li><a href="{{ site.baseurl }}/tags#{{ post.tags }}">{{ post.tags }}</a></li>
-          {% endfor %}
-      </ul>
-      <span class="date">{{ post.date | date: "%Y.%m.%d" }}</span>
-      <div class="entry">
+        {% include post-meta.html %}
+        <div class="entry">
         {{ post.excerpt }}
       </div>
     </article>

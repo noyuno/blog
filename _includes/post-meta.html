@@ -13,18 +13,10 @@ http://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
   {% assign tags = page.tags %}
 {% endif %}
 
-<span class="post-meta">
-  {% comment %}
-  <!--
-  Display all the tag names that link to a corresponding section of the Tags page.
-  -->
-  {% endcomment %}
-  <div
-    class="post-tags">
-    {% for tag in tags %}
-      <a href="{{ site.baseurl }}/tags#{{ tag | slugize }}">
-        {{ tag }}
-      </a>
-    {% endfor %}
-  </div>
-</span>
+      <ul class="tag-cloud">
+          {% for i in tags %} 
+              <li><a href="{{ site.baseurl }}/tags#{{ i }}">{{ i }}</a></li>
+          {% endfor %}
+      </ul>
+      <span class="date">{{ date | date: "%Y.%m.%d" }}</span>
+

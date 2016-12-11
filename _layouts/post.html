@@ -4,17 +4,37 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-    <ul class="tag-cloud">
-        {% for i in page.tags %} 
-            <li><a href="{{ site.baseurl }}/tags#{{ page.tags }}">{{ page.tags }}</a></li>
-        {% endfor %}
-    </ul>
-    <span class="date">{{ page.date | date: "%Y.%m.%d" }}</span>
-
-  <div class="entry">
+{% include post-meta.html %}
+<div class="entry">
     {{ content }}
-  </div>
+</div>
 
-  {% include post-meta.html %}
+<style="margin-top:15px">
+    {% if page.next %} 
+        新しい記事:
+        <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
+    {% endif %}
+    {% if page.previous %} 
+        古い記事:
+        <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% endif %}
+</div>
+
+<div style="margin-top:25px">
+    <a href="{{ site.baseurl }}/tags">すべてのタグ</a>: {% include tag-cloud.html %}
+</div>
+<div style="margin-top:25px; margin-bottom:25px">
+    <a href="{{ site.baseurl }}">最近の記事</a>:
+    <ul class="posts">
+      {% for post in site.posts limit:3 %}
+        <li>
+          <p style="display:inline">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </p>
+            {% include post-meta.html %}
+        </li>
+      {% endfor %}
+    </ul>
+</div>
   {% include disqus.html %}
 </article>
