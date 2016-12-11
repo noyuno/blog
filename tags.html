@@ -35,8 +35,9 @@ http://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
 
       {% for post in site.tags[tag_name] %}
         <a href="{{ site.baseurl }}{{ post.url | prepend: baseurl }}">
-          {{ post.title }}
+          {{ post.title | post: post }}
         </a>
+        {% include post-meta.html %}
       {% endfor %}
     </div>
   {% endfor %}
