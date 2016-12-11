@@ -7,7 +7,7 @@ layout: default
     <div class="date">{{ page.date | date: "%Y.%m.%d" }}</div>
     <ul class="tag-cloud">
         {% for i in page.tags %} 
-            <li><a href="/blog/tags#{{ page.tags }}">{{ page.tags }}</a></li>
+            <li><a href="{{ site.baseurl }}/tags#{{ page.tags }}">{{ page.tags }}</a></li>
         {% endfor %}
     </ul>
 
