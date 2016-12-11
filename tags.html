@@ -34,7 +34,7 @@ http://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
       </h3>
 
       {% for post in site.tags[tag_name] %}
-        <a href="{{ post.url | prepend: baseurl }}">
+        <a href="/blog/{{ post.url | prepend: baseurl }}">
           {{ post.title }}
         </a>
       {% endfor %}
