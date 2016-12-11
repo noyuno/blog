@@ -9,8 +9,8 @@ layout: default
       {% if post.image %}
       <img align="left" width="200px" src="{{ post.image }}"></img>
       {% endif %}
-      <h3 style="display:inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <ul class="tag-cloud" style="display:inline">
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <ul class="tag-cloud">
           {% for i in post.tags %} 
               <li><a href="{{ site.baseurl }}/tags#{{ post.tags }}">{{ post.tags }}</a></li>
           {% endfor %}
