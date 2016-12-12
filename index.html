@@ -3,21 +3,20 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      {% if post.image %}
-      <img class="post-img" align="left" src="{{ post.image }}"></img>
-      {% endif %}
-      <h3 style="display:inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        {% include post-meta.html %}
-        <div class="entry">
-        {{ post.excerpt }}
-      </div>
-    </article>
-  {% endfor %}
+    {% for post in site.posts %}
+        <article class="post">
+            {% if post.image %}
+                <img class="post-img" align="left" src="{{ post.image }}"></img>
+            {% endif %}
+            <h3 style="display:inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+            {% include post-meta.html %}
+            <div class="entry">
+                {{ post.excerpt }}
+            </div>
+        </article>
+    {% endfor %}
 </div>
-<div style="margin-top:25px; clear:both">
+<div class="tag-select">
     <a href="{{ site.baseurl }}/tags">すべてのタグ</a>: {% include tag-cloud.html %}
 </div>
 

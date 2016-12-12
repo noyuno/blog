@@ -17,7 +17,7 @@ http://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
 {% assign tag_names = "" | split: "|"  %}
 
 {% for posts_by_tag in site.tags %}
-  {% assign tag_names = tag_names | push: posts_by_tag.first %}
+    {% assign tag_names = tag_names | push: posts_by_tag.first %}
 {% endfor %}
 
 {% assign tag_names = tag_names | sort %}
@@ -27,27 +27,28 @@ http://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
 <hr>
 
 <section class="posts-by-tags">
-  {% for tag_name in tag_names %}
-    <div class="post" style="clear:both">
-      <h3 id="{{ tag_name }}">
-        {{ tag_name | capitalize | replace: "_", " " }}
-      </h3>
-    </div>
-    <div class="posts">
-      {% for post in site.tags[tag_name] %}
-        <article class="post">
-        {% if post.image %}
-        <img class="post-img" align="left" src="{{ post.image }}"></img>
-        {% endif %}
-        <a href="{{ site.baseurl }}{{ post.url | prepend: baseurl }}">
-          {{ post.title | post: post }}
-        </a>
-        {% include post-meta.html %}
-        <div class="entry">
-        {{ post.excerpt }}
+    {% for tag_name in tag_names %}
+        <div class="post" style="clear:both">
+            <h3 id="{{ tag_name }}">
+                {{ tag_name }}
+            </h3>
         </div>
-        </article>
-      {% endfor %}
-    </div>
-  {% endfor %}
+        <div class="posts">
+        {% for post in site.tags[tag_name] %}
+            <article class="post">
+                {% if post.image %}
+                    <img class="post-img" align="left" src="{{ post.image }}"></img>
+                {% endif %}
+                <a href="{{ site.baseurl }}{{ post.url | prepend: baseurl }}">
+                    {{ post.title | post: post }}
+                </a>
+                {% include post-meta.html %}
+                <div class="entry">
+                    {{ post.excerpt }}
+                </div>
+            </article>
+        {% endfor %}
+        </div>
+    {% endfor %}
 </section>
+
