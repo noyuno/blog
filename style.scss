@@ -292,7 +292,7 @@ footer {
     vertical-align:top;
     width:200px;
     @include mobile {
-        clear:both;
+        width:100px;
     }
 }
 
