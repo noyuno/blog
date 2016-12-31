@@ -20,7 +20,7 @@ layout: default
         {% endif %}
         {% if page.previous %} 
             {% assign post = page.previous %}
-            古い記事:
+            <br>古い記事:
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             {% include post-meta.html %}
         {% endif %}
