@@ -15,7 +15,7 @@ layout: default
         {% if page.next %} 
             {% assign post = page.next %}
             新しい記事:
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             {% include post-meta.html %}
         {% endif %}
         {% if page.previous %} 
