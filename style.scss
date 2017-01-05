@@ -123,11 +123,11 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $white;
+  color: $black; // $white;
   background: #4183c4;
 }
 ::selection {
-  color: $white;
+  color: $black; // $white;
   background: #4183c4;
 }
 
@@ -193,7 +193,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $black; // $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
