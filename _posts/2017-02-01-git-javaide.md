@@ -69,12 +69,16 @@ EGit
 
 「作業対象」に`http://download.eclipse.org/egit/updates`を入力
 
+## おまけ：Ubuntu, Debianでの開発環境
+
+```
+sudo apt install -y git vim
+```
+
 ## おまけ：Windowsでの開発環境
 
 - 隠しファイルを表示させる
-
 - マルチバイト文字を含まない名前のユーザを作成する
-
 - Atomなどのテキストエディタを用意する
 
 ### Windows 10
