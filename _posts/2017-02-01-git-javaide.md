@@ -19,7 +19,7 @@ IntelliJ IDEA/EclipseでGitを使った開発をする際の雑多な注意事�
 さらに，「Editor>File Encodings」を選択し，
 「IDE Encoding」および「Project Encoding」を「UTF-8」にする．
 
-### 行末記号
+### 行末文字
 
 「File>Settings」を開き，「Editor>Code Style」を選択し，「Line separator」を
 「Unix and OS X」にする．
@@ -51,7 +51,7 @@ Pleiades導入済みの環境．
 右ペインの「テキスト・ファイルのエンコード」を「その他」を選び，
 右のコンボボックスから「UTF-8」を選択する．
 
-### 行末記号
+### 行末文字
 
 さらに，その下の「新規テキスト・ファイルの行区切り文字」を「その他」を選び，
 右のコンボボックスから「Unix」を選択する．
