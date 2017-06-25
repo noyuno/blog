@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-ないよ
+月1回更新．Linux，Vimなど．
 
