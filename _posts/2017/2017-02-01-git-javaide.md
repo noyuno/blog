@@ -2,7 +2,7 @@
 layout: post
 title: IntelliJ IDEA/EclipseでGit
 tags:
-- git
+- Git
 ---
 
 IntelliJ IDEA/EclipseでGitを使った開発をする際の雑多な注意事項．
