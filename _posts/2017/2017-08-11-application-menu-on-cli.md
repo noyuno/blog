@@ -1,13 +1,13 @@
 ---
 layout: post
-title: application-menu-on-cli
+title: CLI上でアプリケーションメニューを表示
 tags:
 - CLI
 - Linux
 image: /blog/images/2017-08-11-application-menu-on-cli.png
 ---
 
-CLI上でアプリケーションのメニューを[ranger](http://ranger.nongnu.org/)
+CLI上でアプリケーションメニューを[ranger](http://ranger.nongnu.org/)
 で表示して，選択したアプリケーションを実行する．
 
 ![menu]({{page.image}})
