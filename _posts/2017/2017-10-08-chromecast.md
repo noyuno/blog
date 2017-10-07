@@ -2,7 +2,7 @@
 layout: post
 title: 'Chromecastを操作する'
 tags:
-- Python
+- Python3
 ---
 
 Python 3でChromecastの情報を取得したり，操作する．
