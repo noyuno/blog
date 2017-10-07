@@ -3,7 +3,7 @@ layout: post
 title: 'Chromecastを操作する'
 tags:
 - Python3
-image: /blog/images/2017-10-08-jma.png
+image: /blog/images/2017-10-08-chromecast.png
 ---
 
 Python 3でChromecastの情報を取得したり，操作する．
