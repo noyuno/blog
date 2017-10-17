@@ -12,5 +12,16 @@ CLI上でアプリケーションメニューを[ranger](http://ranger.nongnu.or
 
 ![menu]({{page.image}})
 
+## 使い方
+
+    menu [-b] [arguments...]
+
+    -b: build
+    arguments: Arguments of choosed program (e.g. filename)
+
+`menu`を初めて使う前や新しいアプリケーションをインストールしたときに，
+アプリケーションリストを作成するために`menu -b`を実行する．
+2回目以降は単純に`menu`を実行すれば良い．
+
 <script src="https://gist-it.appspot.com/http://github.com/noyuno/dotfiles/raw/master/bin/menu"></script>
 
