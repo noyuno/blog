@@ -9,6 +9,8 @@ tags:
 
 GitBucketを更新する．
 
+GitHub APIを駆使して最新リリースの実行ファイルをダウンロードする．
+
 ~~~sh
 #!/bin/bash -e
 curl -sL $(curl -s https://api.github.com/repos/gitbucket/gitbucket/releases/latest | \
