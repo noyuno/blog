@@ -1,13 +1,11 @@
 
-.highlight {
-  //background-color: $white;
-  padding: 7px 7px 7px 10px;
+pre.highlight {
   border: 1px solid $gray;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
   overflow: scroll;
+  padding: 7px 7px 7px 7px;
 }
 
 code {
