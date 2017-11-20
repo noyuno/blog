@@ -15,17 +15,26 @@ $lightGray: #111; // #eee
 $white: #111;
 
 // Font stacks
+//@font-face {
+//    font-family: 'Noto Sans Japanese';
+//    font-style: normal;
+//    font-weight: DemiLight;
+//    src: url("https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff"); 
+//    font-display: swap;
+//}
 @font-face {
-    font-family: 'Noto Sans Japanese';
+    font-family: 'SourceHanSansJP';
     font-style: normal;
-    font-weight: DemiLight;
-    src: url("https://fonts.gstatic.com/ea/notosansjapanese/v3/NotoSansJP-DemiLight.woff"); 
+    font-weight: Regular;
+    src: url("/blog/assets/SourceHanSansJP-Regular.min.woff2");
+    font-display: swap;
 }
-@import url("https://fonts.googleapis.com/css?family=Inconsolata");
 
-$helvetica: 'Noto Sans Japanese'; //Helvetica, Arial, sans-serif;
-$helveticaNeue: 'Noto Sans Japanese'; //"Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: 'Noto Sans Japanese'; //Georgia, serif;
+$fontFace: 'SourceHanSansJP', 'Noto Sans Japanese', 'Noto Sans CJK JP', 'Meiryo', sans-serif;
+
+$helvetica: $fontFace;
+$helveticaNeue: $fontFace;
+$georgia: $fontFace;
 
 // Mobile breakpoints
 @mixin mobile {

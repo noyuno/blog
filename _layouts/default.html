@@ -9,7 +9,27 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <style>
+{% capture styles %}
+{% include style.scss %}
+{% endcapture %}
+{{ styles | scssify }}
+    </style>
+    <script>
+      var cb = function() {
+        var o=function(u){
+          var l = document.createElement('link'); l.rel = 'stylesheet';
+          l.href = u;
+          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        }
+        o("https://fonts.googleapis.com/css?family=Inconsolata");
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+
+    </script>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     {% include analytics.html %}
