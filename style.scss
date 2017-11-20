@@ -303,6 +303,7 @@ footer {
 
 table {
     border: 1px outset white;
+    width: 100%;
 }
 
 th, td {
@@ -312,6 +313,22 @@ th, td {
 thead {
     font-weight: bold;
 }
+
+.scroll {
+overflow: auto;
+white-space: nowrap;
+}
+
+.scroll::-webkit-scrollbar{
+ height: 5px;
+}
+.scroll::-webkit-scrollbar-track{
+ background: #F1F1F1;
+}
+.scroll::-webkit-scrollbar-thumb {
+ background: #BCBCBC;
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

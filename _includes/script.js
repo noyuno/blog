@@ -7,6 +7,10 @@ var color = function (b, c) {
         document.body.style.color = white;
         [].forEach.call(document.getElementsByTagName("table"), function(t) {
             t.style.border = "1px outset " + white;
+            var scroll = document.createElement("div");
+            scroll.setAttribute("class", "scroll");
+            t.parentNode.insertBefore(scroll, t.nextSibling);
+            scroll.appendChild(t);
         });
         [].forEach.call(document.getElementsByTagName("th"), function(t) {
             t.style.border = "1px inset " + white;
