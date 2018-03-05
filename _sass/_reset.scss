@@ -23,6 +23,10 @@ time, mark, audio, video {
     font-family: sans-serif;
 	font: inherit;
 	vertical-align: baseline;
+  line-height:1.75em;
+}
+p, ol, ul, li, table, tbody, tr, th, td {
+    text-align:justify;
 }
 // HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
