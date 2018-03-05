@@ -64,6 +64,10 @@ p {
   margin: 15px 0;
 }
 
+.entry > p {
+    margin: 10px 0;
+}
+
 a {
   color: $blue;
   text-decoration: none;
@@ -239,7 +243,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -283,6 +287,18 @@ footer {
 
 .tag-cloud {
     display:inline;
+}
+
+.thumbnail-parent {
+    vertical-align:top;
+    width:200px;
+    @include mobile {
+        width:100px;
+    }
+}
+
+.title-parent {
+
 }
 
 .post-img {

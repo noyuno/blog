@@ -5,13 +5,19 @@ layout: default
 <div class="posts">
     {% for post in site.posts %}
         <article class="post">
+            <div class="thumbnail-parent">
             {% if post.image %}
                 <img class="post-img" align="left" src="{{ post.image }}"></img>
+            {% else %}
+                <img class="post-img" align="left" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" height="100px"> 
             {% endif %}
-            <h3 style="display:inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-            {% include post-meta.html %}
-            <div class="entry">
-                {{ post.excerpt }}
+            </div>
+            <div class="title-parent">
+                <h3 style="display:inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                {% include post-meta.html %}
+                <div class="entry">
+                    {{ post.excerpt }}
+                </div>
             </div>
         </article>
     {% endfor %}
