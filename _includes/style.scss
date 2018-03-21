@@ -157,7 +157,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
@@ -244,7 +244,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 1.5em;
-  border-bottom: 1px solid $lightGray;
+  /*border-bottom: 1px solid $lightGray;*/
 }
 
 .posts > .post:last-child {
@@ -312,6 +312,9 @@ footer {
 .tag-select {
     padding-top:25px; 
     clear:both;
+    ul {
+        list-style:none;
+    }
 }
 
 table {
@@ -342,6 +345,9 @@ white-space: nowrap;
  background: #BCBCBC;
 }
 
+.separator {
+    margin: 35px 0 35px 0;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

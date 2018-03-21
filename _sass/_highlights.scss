@@ -4,7 +4,9 @@ pre.highlight {
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
-  overflow: scroll;
+  /* overflow: scroll; */
+  word-break:break-all;
+  white-space: pre-wrap;
   padding: 7px 7px 7px 7px;
   margin:15px 0 15px 0;
 }

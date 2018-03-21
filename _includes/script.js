@@ -18,6 +18,12 @@ var color = function (b, c) {
         [].forEach.call(document.getElementsByTagName("td"), function(t) {
             t.style.border = "1px inset " + white;
         });
+        [].forEach.call(document.getElementsByClassName("masthead"), function(t) {
+            t.style.borderBottom = "1px solid" + white;
+        });
+        [].forEach.call(document.getElementsByTagName("hr"), function(t) {
+            t.style.borderBottom = "1px solid" + white;
+        });
         if (c) {
             window.localStorage.setItem("color", "black");
         }
@@ -32,6 +38,12 @@ var color = function (b, c) {
         });
         [].forEach.call(document.getElementsByTagName("td"), function(t) {
             t.style.border = "1px inset " + black;
+        });
+        [].forEach.call(document.getElementsByClassName("masthead"), function(t) {
+            t.style.borderBottom = "1px solid" + black;
+        });
+        [].forEach.call(document.getElementsByTagName("hr"), function(t) {
+            t.style.borderBottom = "1px solid" + black;
         });
         if (c) {
             window.localStorage.setItem("color", "white");
