@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Account
 
-[GitHub](github.com/noyuno)
+[GitHub](//github.com/noyuno)
 
 [Steam](//steamcommunity.com/id/noyuno)
 
