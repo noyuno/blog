@@ -10,11 +10,11 @@ for i in $(find _posts/$1 -type f); do
 <!doctype html>
 <html>
     <head>
-        <meta http-equiv="refresh" content="0;url=/blog/$1-$m-$d-$n">
+        <meta http-equiv="refresh" content="0;url=/$1-$m-$d-$n">
     </head>
 <body>
     301 Moved Permanently<br>
-    <a hreF="/blog/$1-$m-$d-$n">/blog/$1-$m-$d-$n</a>
+    <a hreF="/$1-$m-$d-$n">/$1-$m-$d-$n</a>
 </body>
 </html>
 EOF
