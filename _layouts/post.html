@@ -39,9 +39,8 @@ layout: default
             {% endfor %}
         </ul>
     </div>
-    <div class="tag-select">
-        <a href="{{ site.baseurl }}/tags">すべてのタグ</a>: {% include tag-cloud.html %}
-    </div>
+
+    {% include tag-cloud.html %}
 
     <hr class="separator">
 

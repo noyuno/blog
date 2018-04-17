@@ -22,12 +22,14 @@ http://qiita.com/mnishiguchi/items/fa1e8fd2e893ea801ce8
   {% assign tag_names = tag_names | sort %}
 {% endif %}
 
-<ul class="tag-cloud">
-  {% for tag_name in tag_names %}
-    <li>
-      <a href="{{ site.baseurl }}/tags#{{ tag_name | slugize }}">
-        {{ tag_name }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+<div class="tag-select">
+    <ul class="tag-cloud">
+    {% for tag_name in tag_names %}
+        <li>
+        <a href="{{ site.baseurl }}/tag/{{ tag_name | downcase | replace: ' ', '-' }}">
+            {{ tag_name }}
+        </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
