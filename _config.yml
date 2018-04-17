@@ -85,8 +85,8 @@ exclude:
   - README.md
   - CNAME
 
-compress_html:
-    clippings: all
-    comments: all
-    endings: all
+    #compress_html:
+    #    clippings: all
+    #    comments: all
+    #    endings: all
 
