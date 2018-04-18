@@ -2,7 +2,7 @@
 layout: post
 title: 'Neovimのキーマッピング一覧'
 tags:
-- Vim
+- Neovim
 ---
 
 自分のNeovimのキーマッピング一覧

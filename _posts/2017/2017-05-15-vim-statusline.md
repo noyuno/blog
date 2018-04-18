@@ -2,7 +2,7 @@
 layout: post
 title: lightline.vimでステータスラインに絶対パスを表示させる
 tags:
-- Vim
+- Neovim
 
 ---
 
