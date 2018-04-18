@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="posts">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         <article class="post">
             <div class="thumbnail-parent">
             {% if post.image %}
@@ -20,5 +20,11 @@ layout: default
         </article>
     {% endfor %}
 </div>
+
+<ul class="paginator">
+    {% if paginator.previous_page %}<li><a href="{{ site.baseurl }}/{% if paginator.previous_page != 1 %}page/{{ paginator.previous_page }}/{% endif %}">新しい{{ site.paginate }}件</a></li>{% endif %}
+    {% if paginator.next_page %}<li><a href="{{ site.baseurl }}/page/{{ paginator.next_page }}/">古い{{ site.paginate }}件</a></li>{% endif %}
+</ul>
+
 {% include tag-cloud.html %}
 

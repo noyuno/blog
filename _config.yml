@@ -76,6 +76,7 @@ sass:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-paginate
   - jekyll/tagging
 
 # Exclude these files from your production _site
@@ -93,4 +94,8 @@ compress_html:
 
 tag_page_layout: tag_page
 tag_page_dir: tag
+
+paginate: 25
+paginate_path: "page/:num"
+
 
