@@ -107,8 +107,14 @@ strong, b {
 }
 
 img {
-    margin: 10px;
-    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 600px;
+    max-height: 500px;
+    @include mobile {
+        max-width: 100%;
+    }
+    overflow: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
