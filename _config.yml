@@ -88,6 +88,7 @@ exclude:
   - CNAME
 
 compress_html:
+    blanklines: true
     clippings: all
     comments: all
     endings: all
