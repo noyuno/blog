@@ -14,9 +14,11 @@ permalink: /about/
 
 [Twitter](//twitter.com/noyunot)
 
-[Raspberry Pi Server](//noyuno.mydns.jp)
-([Git](//git.noyuno.mydns.jp)
-[Storage](//dir.noyuno.mydns.jp))
+[Raspberry Pi Server](//noyuno.space)
+(
+[Pleroma](//s.noyuno.space), 
+[Git](//git.noyuno.space), 
+[Storage](//dir.noyuno.space))
 
 ## Library
 
