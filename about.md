@@ -8,17 +8,21 @@ permalink: /about/
 
 ## Account
 
-[GitHub](//github.com/noyuno)
+[GitHub:noyuno](//github.com/noyuno)
 
-[Steam](//steamcommunity.com/id/noyuno)
+[Steam:noyuno](//steamcommunity.com/id/noyuno)
 
-[Twitter](//twitter.com/noyunot)
+[Pleroma/Mastodon](//s.noyuno.space/noyuno)
 
-[Raspberry Pi Server](//noyuno.space)
-(
-[Pleroma](//s.noyuno.space), 
-[Git](//git.noyuno.space), 
-[Storage](//dir.noyuno.space))
+## [Raspberry Pi Server](//noyuno.space)
+
+[Pleroma](//s.noyuno.space)
+
+[Git](//git.noyuno.space)
+
+[Storage](//dir.noyuno.space)
+
+[Server Status](/ping)
 
 ## Library
 
