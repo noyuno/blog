@@ -6,11 +6,15 @@ permalink: /about/
 
 月1回（を目標に）更新．Linux，Vimなど．
 
+<style>
+p { margin:0 }
+</style>
+
 ## Account
 
-[GitHub:noyuno](//github.com/noyuno)
+[GitHub](//github.com/noyuno)
 
-[Steam:noyuno](//steamcommunity.com/id/noyuno)
+[Steam](//steamcommunity.com/id/noyuno)
 
 [Pleroma/Mastodon](//s.noyuno.space/noyuno)
 
