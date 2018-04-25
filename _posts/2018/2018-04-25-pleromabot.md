@@ -3,9 +3,11 @@ layout: post
 title: 'Pleromaボットでインスタンスの更新を自動化する'
 tags:
 - Pleroma
+- Python3
+- bot
 ---
 
-Pleromaボットを作り，Pleromaインスタンス自身の更新を自動化する．
+Pleromaボットを作り，Pleromaインスタンス自身の更新をPythonで自動化する．
 
 PleromaボットはおおむねMastodon.pyを使えばいいが，
 ログインがうまく行かなかったので，そこだけごりおす．
