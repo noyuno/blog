@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-月1回（を目標に）更新．Linux，Vimなど．
+月1回（を目標に）更新．Linux，Vimなど．みくP
 
 <style>
 p { margin:0 }
