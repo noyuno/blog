@@ -16,7 +16,7 @@ p { margin:0 }
 
 [Steam](//steamcommunity.com/id/noyuno)
 
-[Pleroma/Mastodon](//s.noyuno.space/noyuno)
+[Pleroma/Mastodon: @noyuno@s.noyuno.space](//s.noyuno.space/users/1)
 
 ## [Raspberry Pi Server](//noyuno.space)
 
