@@ -2,8 +2,8 @@
 layout: post
 title: CLI上でアプリケーションメニューを表示
 tags:
-- CLI
 - Linux
+
 image: /images/2017-08-11-application-menu-on-cli.png
 ---
 

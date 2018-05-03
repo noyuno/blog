@@ -2,9 +2,10 @@
 layout: post
 title: 'GitBucketを更新する'
 tags:
-- Linux
+
 - Git
 - GitBucket
+
 ---
 
 GitBucketを更新する．
