@@ -10,7 +10,7 @@ Python 3でChromecastの情報を取得したり，操作する．
 
 [Raspberry Pi 3 Server](http://noyuno.space)
 
-![image]({{page.image}})
+[![image]({{page.image}})]({{page.image}})
 
 ## 取得
 

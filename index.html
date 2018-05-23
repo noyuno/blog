@@ -7,7 +7,9 @@ layout: default
         <article class="post">
           <div class="thumbnail-parent">
           {% if post.image %}
-            <img class="post-img" align="left" src="{{ post.image }}"></img>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+              <img class="post-img" align="left" src="{{ post.image }}"></img>
+          </a>
           {% endif %}
           </div>
           <div class="title-parent">
