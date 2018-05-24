@@ -10,7 +10,7 @@ image: https://raw.githubusercontent.com/noyuno/chrome-copy-title/master/popup.p
 
 [noyuno/chrome-copy-title: copy title and/or URL](https://github.com/noyuno/chrome-copy-title)
 
-![image]({{page.image}})
+[![image]({{page.image}})]({{page.image}})
 
 BibTeX
 
