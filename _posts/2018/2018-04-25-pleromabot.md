@@ -100,6 +100,6 @@ Raspberry Piインスタンスを自動で更新してくれるというワー�
 
 ソース：[pleromabot/update.py at master · noyuno/pleromabot](https://github.com/noyuno/pleromabot/blob/master/update.py)
 
-ボット：[@megurubot](https://s.noyuno.space/users/255)
+ボット：[@megurubot](https://s.noyuno.space/users/megurubot)
 
 
