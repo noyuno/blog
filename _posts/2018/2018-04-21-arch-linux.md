@@ -2,7 +2,7 @@
 layout: post
 title: '1年間Arch Linuxを使った雑感'
 tags:
-- Linux
+- Arch Linux
 ---
 
 Ubuntu使いが1年ほどArch Linuxをクライアントとして使ってみた雑感
