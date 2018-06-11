@@ -3,7 +3,6 @@ layout: post
 title: 'Git の認証情報を暗号化して保存する'
 tags:
 - Git
-- GPG
 
 ---
 
