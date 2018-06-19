@@ -23,10 +23,6 @@ p { margin:0 }
 [Pleroma](//s.noyuno.space):
 MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
 
-[Git](//git.noyuno.space)
-
-[Storage](//dir.noyuno.space)
-
 [Server Status](/ping):
 サーバ監視
 
