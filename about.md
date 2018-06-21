@@ -18,9 +18,9 @@ p { margin:0 }
 
 [Pleroma: @noyuno@s.noyuno.space](//s.noyuno.space/users/noyuno)
 
-[GPG Public key](/keys/noyuno-gpg.pub)
+[GPG Public key](/keys/noyuno-pub.gpg)
 
-[SSH Public key](/keys/noyuno-ssh.pub)
+[SSH Public key](/keys/noyuno-pub.ssh)
 
 ### Server
 
