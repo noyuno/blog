@@ -18,13 +18,25 @@ p { margin:0 }
 
 [Pleroma: @noyuno@s.noyuno.space](//s.noyuno.space/users/noyuno)
 
-### [Raspberry Pi Server](//noyuno.space)
+[GPG Public key](/keys/noyuno-gpg.pub)
+
+[SSH Public key](/keys/noyuno-ssh.pub)
+
+### Server
+
+[Server Status](/ping):
+サーバ監視
+
+#### [Raspberry Pi Server](//noyuno.space)
 
 [Pleroma](//s.noyuno.space):
 MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
 
-[Server Status](/ping):
-サーバ監視
+その他: Git, Storageなど
+
+#### [Vultr VPS Server](//v.noyuno.space)
+
+その他：Gitなど
 
 ### Vim/Neovim
 
