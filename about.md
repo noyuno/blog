@@ -24,17 +24,19 @@ p { margin:0 }
 
 ### Server
 
-[Server Status](/ping):
+[さーばきゃっと](/ping):
 サーバ監視
 
-#### [Raspberry Pi Server](//noyuno.space)
+#### [Raspberry Pi Server](//pi.noyuno.space)
 
-[Pleroma](//s.noyuno.space):
-MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
+アニメ番組表，Chromecast操作
 
 その他: Git, Storageなど
 
 #### [Vultr VPS Server](//v.noyuno.space)
+
+[Pleroma](//s.noyuno.space):
+MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
 
 その他：Gitなど
 
