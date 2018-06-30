@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Pleroma移行時にアバターが見えなくなった'
+title: 'PleromaのVPS移行時にアバターが見えなくなった'
 tags:
 - Pleroma
 ---
