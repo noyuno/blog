@@ -31,14 +31,14 @@ p { margin:0 }
 
 アニメ番組表，Chromecast操作
 
-その他: Git, Storageなど
-
 #### [Vultr VPS Server](//v.noyuno.space)
 
 [Pleroma](//s.noyuno.space):
 MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
 
-その他：Gitなど
+#### [Kagoya VPS Server](//k.noyuno.space)
+
+[Minecraft](//mc.noyuno.space): サンドボックスビデオゲーム
 
 ### Vim/Neovim
 
