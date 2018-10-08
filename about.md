@@ -29,7 +29,7 @@ p { margin:0 }
 
 #### [Raspberry Pi Server](//pi.noyuno.space)
 
-アニメ番組表，Chromecast操作
+Chromecast操作
 
 #### [Vultr VPS Server](//v.noyuno.space)
 
@@ -38,7 +38,17 @@ MastodonなどActivityPubを実装したインスタンスと連携できるイ�
 
 #### [Kagoya VPS Server](//k.noyuno.space)
 
-[Minecraft](//mc.noyuno.space): サンドボックスビデオゲーム
+[Git powered by Gitbucket](//git.noyuno.space): 
+Gitサーバ
+
+[アニメ番組表](//noyuno.space/anime): 
+自分専用のアニメ番組表
+
+[Minecraft](//mc.noyuno.space): 
+サンドボックスビデオゲーム(休止)
+
+[door](//noyuno.space/door): 
+ドア解錠記録
 
 ### Vim/Neovim
 
