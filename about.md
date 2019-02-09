@@ -27,28 +27,18 @@ p { margin:0 }
 [さーばきゃっと](/ping):
 サーバ監視
 
-#### [Raspberry Pi Server](//pi.noyuno.space)
-
-Chromecast操作
-
 #### [Vultr VPS Server](//v.noyuno.space)
 
 [Pleroma](//s.noyuno.space):
 MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
 
-#### [Kagoya VPS Server](//k.noyuno.space)
+#### [Kagoya VPS Server 2](//k2.noyuno.space)
 
 [Git powered by Gitbucket](//git.noyuno.space): 
 Gitサーバ
 
-[アニメ番組表](//noyuno.space/anime): 
+[アニメ番組表](//anime.noyuno.space): 
 自分専用のアニメ番組表
-
-[Minecraft](//mc.noyuno.space): 
-サンドボックスビデオゲーム(休止)
-
-[door](//noyuno.space/door): 
-ドア解錠記録
 
 ### Vim/Neovim
 
