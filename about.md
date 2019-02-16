@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-月1回（を目標に）更新．Linux，Vimなど．みくP
+月1回（を目標に）更新．Arch Linux，Vim，サーバ構築など．
 
 <style>
 p { margin:0 }
@@ -14,31 +14,20 @@ p { margin:0 }
 
 [GitHub](//github.com/noyuno)
 
-[Steam](//steamcommunity.com/id/noyuno)
-
-[Pleroma: @noyuno@s.noyuno.space](//s.noyuno.space/users/noyuno)
-
 [GPG Public key](/keys/noyuno-pub.gpg)
 
 [SSH Public key](/keys/noyuno-pub.ssh)
 
-### Server
+### Server: [Kagoya VPS Server (k2)](//k2.noyuno.space)
 
-[さーばきゃっと](/ping):
-サーバ監視
-
-#### [Vultr VPS Server](//v.noyuno.space)
-
-[Pleroma](//s.noyuno.space):
-MastodonなどActivityPubを実装したインスタンスと連携できるインスタンス
-
-#### [Kagoya VPS Server 2](//k2.noyuno.space)
-
-[Git powered by Gitbucket](//git.noyuno.space): 
+[GitBucket](//git.noyuno.space): 
 Gitサーバ
 
-[アニメ番組表](//anime.noyuno.space): 
+[アニメ番組表](//anime.noyuno.space)
+([クライアント版](/2016-12-09-anime)):
 自分専用のアニメ番組表
+
+[詳細](/2019-02-12-k2)
 
 ### Vim/Neovim
 
@@ -59,7 +48,8 @@ Vimで表計算
 [lgo](//github.com/noyuno/lgo):
 Golangのライブラリ
 
-[gostruct](//github.com/noyuno/gostruct):
+[gostruct](//github.com/noyuno/gostruct)
+([ブログ](/2018-04-18-gostruct)):
 Golangの`struct`の構造を可視化する
 
 ### Environment
@@ -67,16 +57,21 @@ Golangの`struct`の構造を可視化する
 [dotfiles](//github.com/noyuno/dotfiles):
 Arch Linux をはじめとした環境の設定ファイル，構築スクリプト，ツール
 
-[chrome-copy-title](//github.com/noyuno/chrome-copy-title):
+[chrome-copy-title](//github.com/noyuno/chrome-copy-title)
+([ブログ](/2018-04-18-chrome-copy-title)):
 開いているURL，タイトルをコピーするChrome拡張
-
-[fonts](//github.com/noyuno/fonts)
 
 ### Bot
 
-[YukariAkiyamaHubotSlack](https://github.com/noyuno/YukariAkiyamaHubotSlack):
+[YukariAkiyamaHubotSlack](https://github.com/noyuno/YukariAkiyamaHubotSlack)
+([ブログ](/2018-04-18-slack)):
 秋山優花里殿がSlackでアニメ番組情報やサーバ状況，降雨状況を随時報告してくれます．
 
-[noyuno/pleromabot: めぐるbot](https://github.com/noyuno/pleromabot):
+[noyuno/pleromabot: めぐるbot](https://github.com/noyuno/pleromabot)
+([ブログ](/2018-04-25-pleromabot)):
 自動的にPleromaリポジトリを更新して再起動をするボット
+
+[noyuno/discordbot](https://github.com/noyuno/discordbot)
+([ブログ](/2019-02-12-discordbot)):
+サーバ状況や気象情報などをお知らせするDiscordボット
 
