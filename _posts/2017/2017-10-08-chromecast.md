@@ -8,7 +8,7 @@ image: /images/2017-10-08-chromecast.png
 
 Python 3でChromecastの情報を取得したり，操作する．
 
-[Raspberry Pi 3 Server](http://noyuno.space)
+[Raspberry Pi 3 Server](http://noyuno.jp)
 
 [![image]({{page.image}})]({{page.image}})
 

@@ -19,7 +19,7 @@ PleromaボットはおおむねMastodon.pyを使えばいいが，
 
 ~~~python
 secret="pleromabot.secret"
-url="https://s.noyuno.space"
+url="https://s.noyuno.jp"
 user="megurubot"
 password="hogehoge"
 ~~~
@@ -98,6 +98,6 @@ Raspberry Piインスタンスを自動で更新してくれるというワー�
 
 ソース：[pleromabot/update.py at master · noyuno/pleromabot](https://github.com/noyuno/pleromabot/blob/master/update.py)
 
-ボット：[@megurubot](https://s.noyuno.space/users/megurubot)
+ボット：[@megurubot](https://s.noyuno.jp/users/megurubot)
 
 

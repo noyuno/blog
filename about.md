@@ -18,12 +18,12 @@ p { margin:0 }
 
 [SSH Public key](/keys/noyuno-pub.ssh)
 
-### Server: [Kagoya VPS Server (k2)](//k2.noyuno.space)
+### Server: [Kagoya VPS Server (k2)](//k2.noyuno.jp)
 
-[GitBucket](//git.noyuno.space): 
+[GitBucket](//git.noyuno.jp): 
 Gitサーバ
 
-[アニメ番組表](//anime.noyuno.space)
+[アニメ番組表](//anime.noyuno.jp)
 ([クライアント版](/2016-12-09-anime)):
 自分専用のアニメ番組表
 
