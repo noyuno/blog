@@ -11,8 +11,20 @@ Discordボットをdiscord.pyを使って作った．
 
 ### 機能
 
-現時点での機能は2つある．
-1つ目は Docker コンテナの死活監視である．
+現時点での機能は3つある．
+
+1つ目はボットのAPIを提供する．
+
+~~~
+curl -XPOST -d '{"message":"hello, discordbot"}' http://discordbot/
+~~~
+
+とボットに投げるとDiscordに通知が転送されるという単純なものである．
+[noyuno/photod](https://github.com/noyuno/photod) と
+[noyuno/backupd](https://github.com/noyuno/backupd/)
+はこれを使ってバックアップの進捗を報告する．
+
+2つ目は Docker コンテナの死活監視である．
 1時間ごとに Docker が生きているかどうかを cAdvisor を使って確認する．
 cAdvisor API は v2.1 は `/containers` が使えないため， v1.3 を使用した．
 予め `CONTAINERS` 環境変数で指定したコンテナが生きているか API で確認をして，
